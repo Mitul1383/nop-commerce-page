@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.demo.nopcommerce.listeners.Listeners"></listener>
+    </listeners>
+    <test name="Test suite" >
+        <classes>
+            <class name="com.demo.nopcommerce.testsuite.ComputerTest"/>
+            <class name="com.demo.nopcommerce.testsuite.LoginTest"/>
+            <class name ="com.demo.nopcommerce.testsuite.RegistrationTest"/>
+        </classes>
+    </test>
+</suite>

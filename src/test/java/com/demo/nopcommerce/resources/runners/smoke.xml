@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="smoke" verbose="1" >
+    <groups>
+        <run>
+            <include name="smoke"></include>
+        </run>
+    </groups>
+    <test name="Computer Test" >
+        <classes>
+            <class name="com.demo.nopcommerce.testsuite.ComputerTest"/>
+        </classes>
+    </test>
+
+    <test name="Login Test" >
+        <classes>
+            <class name="com.demo.nopcommerce.testsuite.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Registration Test" >
+        <classes>
+            <class name="com.demo.nopcommerce.testsuite.RegistrationTest"/>
+        </classes>
+    </test>
+</suite>

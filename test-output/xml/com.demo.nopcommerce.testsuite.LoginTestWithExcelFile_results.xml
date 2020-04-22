@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test suite"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="57.250">
+  <properties />
+  
+  
+            <testcase name="verifyUserShouldLoginSuccessfully" time="57.250" classname="com.demo.nopcommerce.testsuite.LoginTestWithExcelFile" />
+      
+</testsuite>
